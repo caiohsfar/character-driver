@@ -2,7 +2,7 @@
 
 `make`
 
-### Register module
+### Register the module
 
 `insmod chardriver.ko`
 
@@ -13,12 +13,12 @@ See if it was successfully registered
 You should see the `/chardriver` directory in the output
 
 
-### Run user program
+### Run user side program
 
 - Compile: `gcc -o user-program user-program.c`
-- Run: `./user-program`
+- Run: `sudo ./user-program`
 
-### Unregister module if wanted
+### Unregister the module if wanted
 
 `sudo rmmod chardriver.ko`
 
