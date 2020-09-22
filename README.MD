@@ -1,8 +1,8 @@
-# Compile
+### Compile
 
 `make`
 
-# Register module
+### Register module
 
 `insmod chardriver.ko`
 
@@ -13,18 +13,18 @@ See if it was successfully registered
 You should see the `/chardriver` directory in the output
 
 
-# Run user program
+### Run user program
 
-Compile: `gcc -o user-program user-program.c`
-Run: `./user-program`
+- Compile: `gcc -o user-program user-program.c`
+- Run: `./user-program`
 
-# Unregister module if wanted
+### Unregister module if wanted
 
 `sudo rmmod chardriver.ko`
 
 
 
-# Obs. 
+### Obs. 
 
  - Only run this driver in a virtual machine environment.
  - This was made on kernel 5.4.0-48-generic.
